@@ -8,5 +8,8 @@ public class Store {
 
     public static void listProducts(ProductForSale[] products) {
 
+        for (int i = 0; i < products.length; i++){
+          products[i].showDetails();
+        }
     }
 }
